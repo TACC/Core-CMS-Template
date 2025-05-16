@@ -4,14 +4,14 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'example_cms/**'
+      - 'cms/**'
 
 jobs:
   build_commit:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: example_cms
+        working-directory: cms
     steps:
       - uses: actions/checkout@v2
       - name: Get shortsha
@@ -36,6 +36,6 @@ jobs:
       - uses: docker/build-push-action@v3
         name: Build & push commit tagged Docker image
         with:
-          context: example_cms
+          context: cms
           push: true
-          tags: taccwma/example-cms:${{ steps.vars.outputs.sha_short }}
+          tags: taccwma/custom-cms:${{ steps.vars.outputs.sha_short }}

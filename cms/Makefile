@@ -28,12 +28,12 @@ publish-latest:
 
 .PHONY: start
 start:
-	$(DOCKER_COMPOSE_CMD) -f docker-compose.dev.yml up
+	$(DOCKER_COMPOSE_CMD) -f docker-compose.dev.yml up $(ARGS)
 
 .PHONY: stop
 stop:
-	$(DOCKER_COMPOSE_CMD) -f docker-compose.dev.yml down
+	$(DOCKER_COMPOSE_CMD) -f docker-compose.dev.yml down $(ARGS)
 
-.PHONY: stop-full
+.PHONY: stop-v
 stop-v:
-	$(DOCKER_COMPOSE_CMD) -f docker-compose.dev.yml down -v
+	$(MAKE) stop ARGS="--volumes"
