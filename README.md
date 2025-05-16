@@ -181,6 +181,7 @@ To upgrade an existing project, read [Upgrade Project].
 [Camino]: https://github.com/TACC/Camino
 [Core CMS]: https://github.com/TACC/Core-CMS
 [Core Styles]: https://github.com/TACC/tup-ui/tree/main/libs/core-styles
+[Core CMS Custom]: https://github.com/TACC/Core-CMS-Custom
 [Core CMS Resources]: https://github.com/TACC/Core-CMS-Resources
 [Core Portal]: https://github.com/TACC/Core-Portal
 
