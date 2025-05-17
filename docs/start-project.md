@@ -12,7 +12,7 @@
 
 2. Configure [Django] Application:
 
-    Create a `./src/taccsite_cms/settings_local.py` with content from [Core-CMS `settings_local.example.py`](https://github.com/TACC/Core-CMS/blob/main/taccsite_cms/settings_local.example.py).
+    Create a `/cms/src/taccsite_cms/settings_local.py` with content from [Core-CMS `settings_local.example.py`](https://github.com/TACC/Core-CMS/blob/main/taccsite_cms/settings_local.example.py).
 
 3. Prepare [Django] Application:
 
