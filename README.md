@@ -12,16 +12,16 @@ https://cep.tacc.utexas.edu/
 >    1. Replace `custom-cms` with the name of this project's CMS image.
 > 3. Delete the `docs` directory (so it does not become outdated).
 > 4. **Delete this notice.**
-> 5. Follow [Core CMS Template's "Set Up Project"](https://github.com/TACC/Core-CMS-Template/tree/v0.1.1/docs/create-project.md#set-up-project).
+> 5. Follow [Core CMS Template's "Set Up Project"](https://github.com/TACC/Core-CMS-Template/blob/v0.1.1/docs/create-project.md#set-up-project).
 
 ## Quick Start
 
-Follow [Core CMS Template's "Start Project"](https://github.com/TACC/Core-CMS-Template/tree/v0.1.1/docs/start-project.md#start-project).
+Follow [Core CMS Template's "Start Project"](https://github.com/TACC/Core-CMS-Template/blob/v0.1.1/docs/start-project.md#start-project).
 
 ## Documentation
 
 > [!TIP]
-> This project is built as a customization of a TACC <abbr title="Content Management System">CMS</abbr> website. To manage this project's CMS, reference [Core-CMS-Template Docs](https://github.com/TACC/Core-CMS-Template/tree/v0.1.1/README.md). To develop this project's custom code, keep reading.
+> This project is built as a customization of a TACC <abbr title="Content Management System">CMS</abbr> website. To manage this project's CMS, reference [Core-CMS-Template Docs](https://github.com/TACC/Core-CMS-Template/blob/v0.1.1/README.md#tacc-custom-cms). To develop this project's custom code, keep reading.
 
 > [!IMPORTANT]
 > After creating a repository from [Core CMS Template]:
