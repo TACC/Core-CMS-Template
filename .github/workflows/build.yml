@@ -1,4 +1,4 @@
-name: Example CMS Builds
+name: Build
 on:
   workflow_dispatch:
   push:
