@@ -4,7 +4,7 @@
 
 - [Create Project](#create-project)
 - [Set Up Project](#set-up-project)
-- [Customize Project](#customize-project)
+- [Configure Build Action](#configure-build-action)
 - [Create Custom App](#create-custom-app)
 
 ## Create Project
@@ -17,7 +17,8 @@
 
 1. [Remove Excess Content](#remove-excess-content)
 2. [Customize Website Settings](#customize-website-settings)
-3. Consider other changes, e.g.
+3. [Configure Build Action](#configure-build-action)
+4. Consider other changes, e.g.
     - [Create a Custom App](#create-a-custom-app)
 
 ### Remove Excess Content
@@ -41,6 +42,11 @@
 To know what settings are available, see [TACC/Core-CMS:`/taccsite_cms/settings.py`](https://github.com/TACC/Core-CMS/blob/main/taccsite_cms/settings.py).
 
 The settings usually edited are `PORTAL_LOGO` and `..._BRANDING`.
+
+### Configure Build Action
+
+1. Get `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN` from [Stache secret](https://stache.utexas.edu/entry/fcf7c3b8029c98f8e8c16d9f7e0e81eb).
+2. [Create repository secrets](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository) for `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN`.
 
 ## Create Custom App
 
