@@ -20,6 +20,10 @@ A [Core CMS] project with **custom functionality**
 - [Core CMS Resources], the old solution for extensions of the [Core CMS] project
 - [Core CMS Custom], custom assets for TACC WMA CMS Websites
 
+Known Clients:
+- [TACC/APCD-CMS](https://github.com/TACC/APCD-CMS)
+- [TACC/tup-ui](https://github.com/TACC/tup-ui)
+
 ## Project Architecture
 
 Within `/cms/` can be:
