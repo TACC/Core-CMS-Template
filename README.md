@@ -37,6 +37,6 @@ Follow [Core CMS Template's "Start Project"][core-cms-template-start].
 [Core CMS Template]: https://github.com/TACC/Core-CMS-Template
 [Core Portal Deployments]: https://github.com/TACC/Core-Portal-Deployments
 
-[core-cms-template-setup]: https://github.com/TACC/Core-CMS-Template/blob/v0.1.2/docs/create-project.md#set-up-project
-[core-cms-template-start]: https://github.com/TACC/Core-CMS-Template/blob/v0.1.2/docs/start-project.md#start-project
-[core-cms-template-docs]: https://github.com/TACC/Core-CMS-Template/blob/v0.1.2/docs/README.md#tacc-custom-cms
+[core-cms-template-setup]: https://github.com/TACC/Core-CMS-Template/blob/v0.1.3/docs/create-project.md#set-up-project
+[core-cms-template-start]: https://github.com/TACC/Core-CMS-Template/blob/v0.1.3/docs/start-project.md#start-project
+[core-cms-template-docs]: https://github.com/TACC/Core-CMS-Template/blob/v0.1.3/docs/README.md#tacc-custom-cms
