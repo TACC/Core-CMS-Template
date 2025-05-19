@@ -47,7 +47,7 @@
 > A new local CMS will be empty. It will **not** have content from staging nor production. To have that, follow and adapt instructions to [copy a database](https://tacc-main.atlassian.net/wiki/x/GwBJAg).
 
 > [!IMPORTANT]
-> A new local CMS does **not** include **nor** integrate with an instance of [Core Portal]. There are no reliable instructions to do either. **Help welcome.**
+> A new custom CMS may or may not include or integrate with an instance of [Core Portal]. Follow instructions specific to your project.
 
 > [!TIP]
 > For CMS user instructions, read TACC's [Django CMS User Guide].
@@ -60,3 +60,5 @@
 [Django CMS]: https://www.django-cms.org/
 
 [Django CMS User Guide]: https://tacc-main.atlassian.net/wiki/x/phdv
+
+[Core Portal]: https://github.com/TACC/Core-Portal
