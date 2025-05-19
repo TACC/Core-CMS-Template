@@ -7,12 +7,15 @@
     make start
     ```
 
-    > [!NOTE]
-    > If this is an initial or new project, keep reading. Otherwise, your project website is running locally again.
+> [!NOTE]
+> If this is an initial or new project, keep reading. Otherwise, your project website is running locally again.
 
 2. Configure [Django] Application:
 
     Create a `/cms/src/taccsite_cms/settings_local.py` with content from [Core-CMS `settings_local.example.py`](https://github.com/TACC/Core-CMS/blob/main/taccsite_cms/settings_local.example.py).
+
+> [!NOTE]
+> If your project uses a `secrets.py` to connect to a remote CMS database, stop reading. Follow instructions specific to your project.
 
 3. Prepare [Django] Application:
 
@@ -30,6 +33,8 @@
     # At "Password" prompts, you may use an easy-to-remember password.
     python manage.py collectstatic --no-input
     ```
+
+    (Exit the shell and container e.g. `exit()` then `exit`.)
 
 4. Enter [Django CMS]:
     1. Open http://localhost:8000/.
