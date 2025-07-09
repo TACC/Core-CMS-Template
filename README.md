@@ -13,7 +13,7 @@ https://cep.tacc.utexas.edu/
 > 3. Delete `/docs` directory (so it does not become outdated).
 > 4. **Delete this notice.**
 > 5. Follow [Core CMS Template's "Set Up Project"][core-cms-template-setup].
-> 6. Adapt or Remove "[Quick Start](#quick-start)" accodrding to your project.
+> 6. Adapt or Remove "[Quick Start](#quick-start)" according to your project.
 
 ## Quick Start
 
