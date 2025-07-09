@@ -1,5 +1,19 @@
 # Start Project
 
+## Quick Start
+
+0. To remove previous setup **entirely**:
+    ```sh
+    make clean
+    ```
+1. Run the setup script:
+    ```sh
+    make setup
+    ```
+    You will be prompted for information.
+
+## Manual Setup
+
 1. Start [Docker] Containers:
 
     ```sh
