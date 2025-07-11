@@ -21,6 +21,7 @@ A [Core CMS] project with **custom functionality**
 - [Core CMS Custom], custom assets for TACC WMA CMS Websites
 
 Known Clients:
+- [TACC/Texascale-CMS](https://github.com/TACC/Texascale-CMS)
 - [TACC/APCD-CMS](https://github.com/TACC/APCD-CMS)
 - [TACC/tup-ui](https://github.com/TACC/tup-ui)
 
