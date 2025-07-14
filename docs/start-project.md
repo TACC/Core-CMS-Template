@@ -1,5 +1,12 @@
 # Start Project
 
+## Prerequisites
+
+* [Docker] (Docker Engine ≥ v20 + [Docker Compose])
+
+> [!IMPORTANT]
+> We recommend you install the Docker Desktop application. Alternatively, you may install both Docker Engine and Docker Compose.
+
 ## Quick Start
 
 0. Enter CMS project:
@@ -81,9 +88,10 @@
 <!-- Link Aliases -->
 
 [Docker]: https://docs.docker.com/get-docker/
+[Docker Compose]: https://docs.docker.com/compose/install/
+
 [Django]: https://www.djangoproject.com/
 [Django CMS]: https://www.django-cms.org/
-
 [Django CMS User Guide]: https://tacc-main.atlassian.net/wiki/x/phdv
 
 [Core Portal]: https://github.com/TACC/Core-Portal
