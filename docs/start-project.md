@@ -2,17 +2,25 @@
 
 ## Quick Start
 
-0. To remove previous setup **entirely**:
+0. Enter CMS project:
+    ```sh
+    cd cms
+    ```
+1. (optional) To remove previous setup **entirely**:
     ```sh
     make clean
     ```
-1. Run the setup script:
+2. Run the setup script:
     ```sh
     make setup
     ```
     You will be prompted for information.
+3. [Add Content](#add-content).
 
 ## Manual Setup
+
+> [!NOTE]
+> If [Quick Start](#quick-start) process fails, report the error to your team, and follow these steps for now.
 
 1. Start [Docker] Containers:
 
@@ -50,12 +58,15 @@
 
     (Exit the shell and container e.g. `exit()` then `exit`.)
 
-4. Enter [Django CMS]:
-    1. Open http://localhost:8000/.
-    2. Login with the credentials you defined in step 2.
-    3. Create one CMS page.\
-        (With "New page" highlighted, click "Next" button.)
-        - This page will automatically be your local homepage.
+4. [Add Content](#add-content).
+
+## Add Content
+
+1. Open http://localhost:8000/.
+2. Login with the credentials you defined in step 2.
+3. Create one CMS page.\
+    (With "New page" highlighted, click "Next" button.)
+    - This page will automatically be your local homepage.
 
 > [!IMPORTANT]
 > A new local CMS will be empty. It will **not** have content from staging nor production. To have that, follow and adapt instructions to [copy a database](https://tacc-main.atlassian.net/wiki/x/GwBJAg).
