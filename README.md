@@ -8,8 +8,9 @@ https://cep.tacc.utexas.edu/
 > 1. In this doc:
 >    1. Rename "TACC Custom CMS" to the name of this project.
 >    2. Change https://cep.tacc.utexas.edu/ to URL of this project's website.
-> 2. In `.github/workflows/build.yml`:
->    1. Replace `custom-cms` with the name of this project's CMS image.
+> 2. Replace `custom-cms` with the name of this project's CMS image, in:
+>    - `.github/workflows/build.yml`
+>    - `cms/Makefile`
 > 3. Delete `/docs` directory (so it does not become outdated).
 > 4. Follow [Core CMS Template's "Set Up Project"][core-cms-template-setup].
 > 5. Adapt or Remove "[Quick Start](#quick-start)" according to your project.
