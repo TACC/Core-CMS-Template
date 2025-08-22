@@ -37,7 +37,7 @@
 | Intent | File to Update |
 | - | - |
 | Test | `/cms/src/taccsite_cms/settings_custom.py` |
-| Commit | [TACC/Core-Portal-Deployments][Core Portal Deployments]:`/project_dir/camino/settings_custom.py` |
+| Deploy | [TACC/Core-Portal-Deployments][Core Portal Deployments]:`/project_dir/camino/settings_custom.py` |
 
 To know what settings are available, see [TACC/Core-CMS:`/taccsite_cms/settings.py`](https://github.com/TACC/Core-CMS/blob/main/taccsite_cms/settings.py).
 

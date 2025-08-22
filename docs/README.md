@@ -17,8 +17,8 @@ A [Core CMS] project with **custom functionality**
 ## Related Repositories
 
 - [Core CMS], the base CMS code for TACC WMA CMS Websites
-- [Core CMS Resources], the old solution for extensions of the [Core CMS] project
 - [Core CMS Custom], custom assets for TACC WMA CMS Websites
+- [Core Portal Deployments], configure deployment of TACC WMA CMS Websites
 
 Known Clients:
 - [TACC/Texascale-CMS](https://github.com/TACC/Texascale-CMS)
@@ -40,4 +40,4 @@ Within `/cms/` can be:
 
 [Core CMS]: https://github.com/TACC/Core-CMS
 [Core CMS Custom]: https://github.com/TACC/Core-CMS-Custom
-[Core CMS Resources]: https://github.com/TACC/Core-CMS-Resources
+[Core Portal Deployments]: https://github.com/TACC/Core-Portal-Deployments
