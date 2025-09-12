@@ -41,7 +41,8 @@
 
 2. Configure [Django] Application:
 
-    Create a `/cms/src/taccsite_cms/settings_local.py` with content from [Core-CMS `settings_local.example.py`](https://github.com/TACC/Core-CMS/blob/main/taccsite_cms/settings_local.example.py).
+    - Create a `/cms/src/taccsite_cms/settings_local.py` with content from [Core-CMS `settings_local.example.py`](https://github.com/TACC/Core-CMS/blob/main/taccsite_cms/settings_local.example.py).
+    - Create a `/cms/src/taccsite_cms/settings_custom.py` with content from [Core-CMS `settings_custom.example.py`](https://github.com/TACC/Core-CMS/blob/main/taccsite_cms/settings_custom.example.py).
 
 > [!NOTE]
 > If your project uses a `secrets.py` to connect to a remote CMS database, stop reading. Follow instructions specific to your project.
