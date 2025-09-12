@@ -23,14 +23,14 @@
 
 ### Remove Excess Content
 
-> **Note**
+> [!NOTE]
 > [Core CMS] supports standard TACC apps, URLs, and static asset directories. Consider its capabilities before creating something new.
 
 | <u>If</u> Project Does Not Need: | <u>Then</u> Delete: |
 | - | - |
-| additional apps | the directory `apps/`<br />the `COPY /src/apps /code/taccsite_cms/apps` in `Dockerfile` |
-| URLs for custom apps | `urls_custom.py` |
-| custom code | `custom_app_settings.py` |
+| additional apps | the directory `apps/` & the `COPY /src/apps /code/taccsite_cms/apps` in `Dockerfile` |
+| URLs for custom apps | `/cms/src/taccsite_cms/urls_custom.py` |
+| custom code | `/cms/src/taccsite_cms/custom_app_settings.py` |
 
 ### Customize Website Settings
 
@@ -39,9 +39,9 @@
 | Test | `/cms/src/taccsite_cms/settings_custom.py` |
 | Deploy | [TACC/Core-Portal-Deployments][Core Portal Deployments]:`/project_dir/camino/settings_custom.py` |
 
-To know what settings are available, see [TACC/Core-CMS:`/taccsite_cms/settings.py`](https://github.com/TACC/Core-CMS/blob/main/taccsite_cms/settings.py).
+The settings most overridden are `PORTAL_LOGO` and `..._BRANDING`.
 
-The settings usually edited are `PORTAL_LOGO` and `..._BRANDING`.
+To know what settings are typically customized, see [TACC/Core-CMS:`/…/settings_custom.example.py`](https://github.com/TACC/Core-CMS/blob/main/taccsite_cms/settings_custom.example.py). To know all settings are available, see [TACC/Core-CMS:`/…/settings.py`](https://github.com/TACC/Core-CMS/blob/main/taccsite_cms/settings.py).
 
 ### Configure Build Action
 
