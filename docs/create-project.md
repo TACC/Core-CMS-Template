@@ -52,6 +52,7 @@ To know what settings are typically customized, see [TACC/Core-CMS:`/…/setting
 
 - Update `custom_app_settings.py` with pertinent content from [TACC/Core-CMS:`/taccsite_cms/custom_app_settings.example.py`](https://github.com/TACC/Core-CMS/blob/1d88c35/taccsite_cms/custom_app_settings.example.py).
 - Update `urls_custom.py` with pertinent content from [TACC/Core-CMS:`/taccsite_cms/urls_custom.example.py`](https://github.com/TACC/Core-CMS/blob/1d88c35/taccsite_cms/urls_custom.example.py).
+- If your custom app needs to host React UI, see [`docs/react-custom-app.md`](react-custom-app.md).
 
 
 <!-- Link Aliases -->
