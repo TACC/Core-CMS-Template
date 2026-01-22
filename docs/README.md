@@ -9,6 +9,7 @@ A [Core CMS] project with **custom functionality**
 - [Prerequisites](https://github.com/TACC/Core-CMS#prerequisites)
 - [Create Project](./create-project.md)
 - [Start Project](./start-project.md)
+- [Configure Project](./configure-project.md)
 - [Run Project](./run-project.md)
 - [Update Project](./update-project.md)
 - [Build Project](./build-project.md)
