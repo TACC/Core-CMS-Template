@@ -1,5 +1,9 @@
 # Start Project
 
+1. [Prerequisites](#prerequisites)
+2. [Start Application](#start-application)
+3. [Add Content](#add-content)
+
 ## Prerequisites
 
 * [Docker] (Docker Engine ≥ v20 + [Docker Compose])
@@ -7,13 +11,15 @@
 > [!IMPORTANT]
 > We recommend you install the Docker Desktop application. Alternatively, you may install both Docker Engine and Docker Compose.
 
-## Quick Start
+## Start Application
+
+### Quick Start
 
 0. Enter CMS project:
     ```sh
     cd cms
     ```
-1. (optional) To remove previous setup **entirely**:
+1. (optional) To remove a previous setup **entirely**:
     ```sh
     make clean
     ```
@@ -24,10 +30,17 @@
     You will be prompted for information.
 3. [Add Content](#add-content).
 
-## Manual Setup
+### Troubleshooting
 
-> [!NOTE]
-> If [Quick Start](#quick-start) process fails, report the error to your team, and follow these steps for now.
+Ensure you have:
+- met [Prerequisites](#prerequisites)
+- [Docker] and [Docker Compose] running
+- no conflicting CMS instances in Docker
+
+> [!IMPORTANT]
+> If [Quick Start](#quick-start) process still fails, report the error to your team, and follow [Manual Method](#manual-method) for now.
+
+### [Manual Method](#manual-method)
 
 1. Start [Docker] Containers:
 
