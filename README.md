@@ -15,7 +15,7 @@ https://cep.tacc.utexas.edu/
 >
 >    — replace `custom-cms` with the name of this project's CMS image.
 > 3. Delete `/docs` directory (so it does not become outdated).
-> 4. Follow [Core CMS Template's "Set Up Project"][core-cms-template-setup].
+> 4. Follow [Core CMS Template's "Configure Project"][core-cms-template-configure].
 > 5. Adapt or Remove "[Quick Start](#quick-start)" according to your project.
 > 6. **Delete this notice.**
 
@@ -41,6 +41,6 @@ Follow [Core CMS Template's "Start Project"][core-cms-template-start].
 [Core CMS Template]: https://github.com/TACC/Core-CMS-Template
 [Core Portal Deployments]: https://github.com/TACC/Core-Portal-Deployments
 
-[core-cms-template-setup]: https://github.com/TACC/Core-CMS-Template/blob/v0.5.1/docs/create-project.md#set-up-project
-[core-cms-template-start]: https://github.com/TACC/Core-CMS-Template/blob/v0.5.1/docs/start-project.md#start-project
-[core-cms-template-docs]: https://github.com/TACC/Core-CMS-Template/blob/v0.5.1/docs/README.md#tacc-custom-cms
+[core-cms-template-configure]: https://github.com/TACC/Core-CMS-Template/blob/v0.6.0/docs/configure-project.md
+[core-cms-template-start]: https://github.com/TACC/Core-CMS-Template/blob/v0.6.0/docs/start-project.md#start-project
+[core-cms-template-docs]: https://github.com/TACC/Core-CMS-Template/blob/v0.6.0/docs/README.md#tacc-custom-cms
