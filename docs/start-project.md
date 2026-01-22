@@ -35,7 +35,8 @@
 Ensure you have:
 - met [Prerequisites](#prerequisites)
 - [Docker] and [Docker Compose] running
-- no conflicting CMS instances in Docker
+- **no** conflicting CMS instances in Docker
+- port `8000` is available
 
 > [!IMPORTANT]
 > If [Quick Start](#quick-start) process still fails, report the error to your team, and follow [Manual Method](#manual-method) for now.
