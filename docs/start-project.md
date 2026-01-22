@@ -40,7 +40,7 @@ Ensure you have:
 > [!IMPORTANT]
 > If [Quick Start](#quick-start) process still fails, report the error to your team, and follow [Manual Method](#manual-method) for now.
 
-### [Manual Method](#manual-method)
+### Manual Method
 
 1. Start [Docker] Containers:
 
