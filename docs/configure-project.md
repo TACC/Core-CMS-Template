@@ -15,7 +15,7 @@
 | - | - |
 | additional apps | the directory `apps/` & the `COPY /src/apps /code/taccsite_cms/apps` in `Dockerfile` |
 | URLs for custom apps | `/cms/src/taccsite_cms/urls_custom.py` |
-| custom code | `/cms/src/taccsite_cms/custom_app_settings.py` |
+| Core-CMS settings for custom apps | `/cms/src/taccsite_cms/custom_app_settings.py` |
 
 ## Customize Website Settings
 
