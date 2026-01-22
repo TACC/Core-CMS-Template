@@ -15,9 +15,10 @@ https://cep.tacc.utexas.edu/
 >
 >    — replace `custom-cms` with the name of this project's CMS image.
 > 3. Delete `/docs` directory (so it does not become outdated).
-> 4. Follow [Core CMS Template's "Configure Project"][core-cms-template-configure].
-> 5. Adapt or Remove "[Quick Start](#quick-start)" according to your project.
-> 6. **Delete this notice.**
+> 4. [Start the project.][core-cms-template-start]
+> 5. [Configure the project.][core-cms-template-configure].
+> 6. Adapt or Remove "[Quick Start](#quick-start)" according to your project.
+> 7. **Delete this notice.**
 
 ## Quick Start
 
