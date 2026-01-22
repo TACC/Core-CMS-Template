@@ -1,9 +1,9 @@
 # Configure Project
 
-1. [Remove Excess Content](#remove-excess-content)
-2. [Customize Website Settings](#customize-website-settings)
-3. [Configure Build Action](#configure-build-action)
-4. Consider other changes, e.g.
+- [Remove Excess Content](#remove-excess-content)
+- [Customize Website Settings](#customize-website-settings)
+- [Configure Build Action](#configure-build-action)
+- Consider other changes, e.g.
     - [Create a Custom App](#create-a-custom-app)
 
 ## Remove Excess Content
