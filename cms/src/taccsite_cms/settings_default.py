@@ -6,3 +6,6 @@ This allows Core-CMS client software to standardize their custom settings while 
 
 # To hide error about using Google Recaptcha test keys
 SILENCED_SYSTEM_CHECKS = ['captcha.recaptcha_test_key_error']
+
+# To allow http:// access
+SESSION_COOKIE_SECURE = False
