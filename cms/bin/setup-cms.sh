@@ -85,7 +85,7 @@ for file in settings_custom settings_local secrets; do
             cp "$example_file" "$settings_file"
         else
             echo -e "  ${WRN}Local ${example_file} not found, downloading directly to ${settings_file}...${RST}"
-            if ! download_file "$url" "$settings_file" "${file}.py"; then
+            if ! download_file "$url" "${SRC_ROOT}/$settings_file" "${file}.py"; then
                 FAILED_DOWNLOADS+=("${file}|${url}|${settings_file}")
             fi
         fi
@@ -101,13 +101,13 @@ if [ ${#FAILED_DOWNLOADS[@]} -gt 0 ]; then
         IFS='|' read -r file url settings_file <<< "$failure"
         echo -e "  ${NEG}✗ ${file}.py${RST}"
         echo -e "    ${INF}URL: ${url}${RST}"
-        echo -e "    ${INF}Save to: ${SRC_ROOT}${settings_file}${RST}"
+        echo -e "    ${INF}Save to: ${SRC_ROOT}/${settings_file}${RST}"
     done
     echo -e ""
     echo -e "${WRN}Resolution:${RST}"
-    echo -e "${WRN}1. Download each file listed above${RST}"
-    echo -e "${WRN}2. Save each file to the corresponding path shown${RST}"
-    echo -e "${WRN}3. Re-run this setup script${RST}"
+    echo -e "${WRN}1. Download each file listed above.${RST}"
+    echo -e "${WRN}2. Save each file to the corresponding path shown.${RST}"
+    echo -e "${WRN}3. Re-run this setup script.${RST}"
     echo -e ""
     exit 1
 fi
