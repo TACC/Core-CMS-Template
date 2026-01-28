@@ -18,7 +18,7 @@ https://cep.tacc.utexas.edu/
 > 4. [Start the project.][core-cms-template-start]
 > 5. [Configure the project.][core-cms-template-configure]
 > 6. Adapt or Remove "[Quick Start](#quick-start)" according to your project.
-> 7. Edit repository "About"; add Topics: `django-cms`, `tacc`, `tacc-core-cms-template`.
+> 7. [Classify repository with topics][gh-repo-topics]: **`tacc-core-cms-template`**, `django-cms`, `tacc`.
 > 8. **Delete this notice.**
 
 ## Quick Start
@@ -46,3 +46,5 @@ Follow [Core CMS Template's "Start Project"][core-cms-template-start].
 [core-cms-template-configure]: https://github.com/TACC/Core-CMS-Template/blob/v0.6.0/docs/configure-project.md
 [core-cms-template-start]: https://github.com/TACC/Core-CMS-Template/blob/v0.6.0/docs/start-project.md#start-project
 [core-cms-template-docs]: https://github.com/TACC/Core-CMS-Template/blob/v0.6.0/docs/README.md#tacc-custom-cms
+
+[gh-repo-topics]: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics#adding-topics-to-your-repository
