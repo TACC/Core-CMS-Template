@@ -73,7 +73,7 @@ fi
 
 # Check for required settings files (local first, then remote)
 echo -e "${INF}Checking for required settings files...${RST}"
-
+FAILED_DOWNLOADS=()
 for file in settings_custom settings_local secrets; do
     settings_file="taccsite_cms/${file}.py"
     example_file="taccsite_cms/${file}.example.py"
@@ -86,20 +86,31 @@ for file in settings_custom settings_local secrets; do
         else
             echo -e "  ${WRN}Local ${example_file} not found, downloading directly to ${settings_file}...${RST}"
             if ! download_file "$url" "$settings_file" "${file}.py"; then
-                echo -e "${NEG}Error: Failed to download ${settings_file}${RST}"
-                echo -e ""
-                echo -e "  ${WRN}Resolution:${RST}"
-                echo -e "  ${WRN}1. Download file ${url}${RST}"
-                echo -e "  ${WRN}2. Save to ${SRC_ROOT}${settings_file}"
-                echo -e "  ${WRN}3. Re-run this setup script${RST}"
-                echo -e ""
-                exit 1
+                FAILED_DOWNLOADS+=("${file}|${url}|${settings_file}")
             fi
         fi
     else
         echo -e "  ${INF}${settings_file} already exists${RST}"
     fi
 done
+if [ ${#FAILED_DOWNLOADS[@]} -gt 0 ]; then
+    echo -e ""
+    echo -e "${NEG}Failed to download ${#FAILED_DOWNLOADS[@]} file(s):${RST}"
+    echo -e ""
+    for failure in "${FAILED_DOWNLOADS[@]}"; do
+        IFS='|' read -r file url settings_file <<< "$failure"
+        echo -e "  ${NEG}✗ ${file}.py${RST}"
+        echo -e "    ${INF}URL: ${url}${RST}"
+        echo -e "    ${INF}Save to: ${SRC_ROOT}${settings_file}${RST}"
+    done
+    echo -e ""
+    echo -e "${WRN}Resolution:${RST}"
+    echo -e "${WRN}1. Download each file listed above${RST}"
+    echo -e "${WRN}2. Save each file to the corresponding path shown${RST}"
+    echo -e "${WRN}3. Re-run this setup script${RST}"
+    echo -e ""
+    exit 1
+fi
 
 # Build and start Docker containers (from project root)
 echo -e "${INF}Building and starting Docker containers...${RST}"
