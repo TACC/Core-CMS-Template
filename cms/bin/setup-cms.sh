@@ -17,28 +17,21 @@ PROJECT_ROOT="${SCRIPT_DIR}/../"
 SRC_ROOT="${SCRIPT_DIR}/../src"
 
 # Configure fallback for settings
-VERSION="main"
+VERSION="stable"
 BASE_URL="https://cdn.jsdelivr.net/gh/TACC/Core-CMS@${VERSION}"
-CREATE_VAR_FILES=false
 
 # Functions
-check_for_curl() {
-    if ! command -v curl &> /dev/null; then
-        echo -e "${NEG}Error: curl is not installed but is required for downloading remote files.${RST}"
-        echo "Please install curl and try again."
-        exit 1
-    fi
-}
 download_file() {
     local url="$1"
     local output_file="$2"
     local description="$3"
 
-    check_for_curl
+    DOWNLOAD_CMD="curl -fL \"$url\" -o \"$output_file\""
 
     echo -e "  ${INF}Downloading ${description}...${RST}"
+    echo -e "  ${DOWNLOAD_CMD}"
 
-    if curl -sL "$url" -o "$output_file"; then
+    if eval $DOWNLOAD_CMD; then
         if [ -s "$output_file" ]; then
             echo -e "  ${POS}Successfully downloaded ${description}${RST}"
             return 0
@@ -48,7 +41,6 @@ download_file() {
             return 1
         fi
     else
-        echo -e "  ${NEG}Error: Failed to download ${description} from ${url}${RST}"
         return 1
     fi
 }
@@ -95,6 +87,12 @@ for file in settings_custom settings_local secrets; do
             echo -e "  ${WRN}Local ${example_file} not found, downloading directly to ${settings_file}...${RST}"
             if ! download_file "$url" "$settings_file" "${file}.py"; then
                 echo -e "${NEG}Error: Failed to download ${settings_file}${RST}"
+                echo -e ""
+                echo -e "  ${WRN}Resolution:${RST}"
+                echo -e "  ${WRN}1. Download file ${url}${RST}"
+                echo -e "  ${WRN}2. Save to ${SRC_ROOT}${settings_file}"
+                echo -e "  ${WRN}3. Re-run this setup script${RST}"
+                echo -e ""
                 exit 1
             fi
         fi
