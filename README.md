@@ -43,8 +43,8 @@ Follow [Core CMS Template's "Start Project"][core-cms-template-start].
 [Core CMS Template]: https://github.com/TACC/Core-CMS-Template
 [Core Portal Deployments]: https://github.com/TACC/Core-Portal-Deployments
 
-[core-cms-template-configure]: https://github.com/TACC/Core-CMS-Template/blob/v0.7.1/docs/configure-project.md
-[core-cms-template-start]: https://github.com/TACC/Core-CMS-Template/blob/v0.7.1/docs/start-project.md#start-project
-[core-cms-template-docs]: https://github.com/TACC/Core-CMS-Template/blob/v0.7.1/docs/README.md#tacc-custom-cms
+[core-cms-template-configure]: https://github.com/TACC/Core-CMS-Template/blob/v0.7.2/docs/configure-project.md
+[core-cms-template-start]: https://github.com/TACC/Core-CMS-Template/blob/v0.7.2/docs/start-project.md#start-project
+[core-cms-template-docs]: https://github.com/TACC/Core-CMS-Template/blob/v0.7.2/docs/README.md#tacc-custom-cms
 
 [gh-repo-topics]: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics#adding-topics-to-your-repository
