@@ -24,6 +24,7 @@ A [Core CMS] project with **custom functionality**
 Known Clients:
 - [TACC/Texascale-CMS](https://github.com/TACC/Texascale-CMS)
 - [TACC/APCD-CMS](https://github.com/TACC/APCD-CMS)
+- [TACC/CTRN-CMS](https://github.com/TACC/CTRN-CMS)
 - [TACC/tup-ui](https://github.com/TACC/tup-ui)
 
 ## Project Architecture
