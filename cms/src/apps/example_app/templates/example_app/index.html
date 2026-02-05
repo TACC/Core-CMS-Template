@@ -7,7 +7,17 @@
 <link rel="stylesheet" type="text/css" href="{% static 'example_app/css/example_app.css' %}">
 {% endaddtoblock %}
 
+{% addtoblock "js" %}
+{# Optional: create this file in your project to load your React build. #}
+{# Example: it can include <script type="module" src="/static/.../assets/..."></script> #}
+{% include "example_app/react-imports.html" ignore missing %}
+{% endaddtoblock %}
+
 <h1>Example App</h1>
 <p>Example application content.</p>
+
+<section aria-label="React mount example">
+  <div id="example-react-mount"></div>
+</section>
 
 {% endblock %}
