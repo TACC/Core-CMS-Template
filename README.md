@@ -19,7 +19,8 @@ https://cep.tacc.utexas.edu/
 > 5. [Configure the project.][core-cms-template-configure]
 > 6. Adapt or Remove "[Quick Start](#quick-start)" according to your project.
 > 7. [Classify repository with topics][gh-repo-topics]: **`tacc-core-cms-template`**, `django-cms`, `tacc`.
-> 8. **Delete this notice.**
+> 8. (Optional) Run "Sync Labels" Action for accessible, developer Labels.
+> 9. **Delete this notice.**
 
 ## Quick Start
 
