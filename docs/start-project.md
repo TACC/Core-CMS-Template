@@ -28,6 +28,12 @@
     make setup
     ```
     You will be prompted for information.
+
+    > To set the superuser password non-interactively:
+    > ```sh
+    > DJANGO_SUPERUSER_PASSWORD=yourpass make setup
+    > ```
+
 3. [Add Content](#add-content).
 
 ### Troubleshooting
