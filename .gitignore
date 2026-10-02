@@ -6,10 +6,20 @@
 
 # ignore secrets & settings
 ## so dev learns those should not be committed in this repo
-*secrets.py
-*settings_local.py
+*secrets*.py
+*settings_local*.py
 ## to remind devs to commit to TACC/Core-Portal-Deployments
-# *settings_custom.py
+*settings_custom*.py
+*urls_custom*.py
+
+# custom docker compositions
+docker-compose.local.yml
+docker-compose.local-*.yml
+docker-compose.agent.yml
+docker-compose.agent-*.yml
+
+# AI
+.claude/
 
 # no node modules
 node_modules/
